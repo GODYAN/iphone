@@ -1,0 +1,547 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	font-family: "苹方","微软雅黑";
+	box-sizing: border-box;
+	text-decoration: none;
+}
+nav{
+	width: 100%;
+	height: 44px;
+	background: black;
+}
+.lan{
+	width: 1000px;
+	height: 100%;
+	margin: 0px auto;
+    text-align: justify;
+}
+.lan .let li{
+	 width: 56px;
+	 line-height: 44px;
+     display: inline-block;
+}
+.let li a{
+	font-size: 14px;
+	color:#FFFFFF ;
+	display: block;
+	text-align: center;
+}
+
+.lan .let{
+	text-align: justify;
+}
+.let:after{
+	content: "";
+	display: inline-block;
+	width: 100%;
+}
+.lan .con{
+	width: 100%;
+	height: 44px;
+	display: none;
+}
+.lan .con li{
+	width: 33.33%;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	float: left;
+}
+.lan .con li:nth-child(1){
+	text-align: left;
+}
+.lan .con li:nth-child(3){
+	text-align: right;
+}
+
+
+/* banner */
+.banner{
+	width: 100%;
+	height: 540px;
+	background: url('../img/iphone7_productred_large.png')no-repeat center;
+	background-size: contain;
+	background-color: #CC3341;
+    position: relative;
+    margin: 0px auto;
+}
+.banner li:nth-child(1){
+    width: 52px;
+    height: 22px;
+    border-radius: 5px;
+    border: 1px solid white;
+    line-height:120px;
+    position: absolute;
+    top: 39px;
+    left: 0px;
+    right: 0px;
+     margin: 0px auto;
+    }
+  .banner li span{
+  	display: block;
+  	font-size: 10px;
+    line-height: 22px;
+   text-align: center;
+    color: white;  
+  }
+  .banner li:nth-child(2){
+  
+       width: 120px;
+    height: 22px;
+      	font-size: 26px;
+  	font-weight: bolder;
+  	color: white;
+      line-height:120px;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    right: 0px;
+     margin: 0px auto;
+  }
+ .banner li:nth-child(3){
+    width: 220px;
+    height: 30px;
+    font-size: 26px;
+  	font-weight: bolder;
+  	color: white;
+    line-height:120px;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    right: 0px;
+     margin: 0px auto;
+ }
+ /* bannerxia */
+ .col-l-1{
+	width: 8.3333%;
+}
+.col-l-2{
+	width: 16.66667%;
+}
+.col-l-3{
+	width: 25%;
+}
+.col-l-4{
+	width: 33.33333%;
+}
+.col-l-5{
+	width: 41.6667%;
+}
+.col-l-6{
+
+.	width: 50%;
+}
+.col-l-7{
+	width: 58.3333%;
+}
+.col-l-8{
+	width: 66.66667%;
+}
+.col-l-9{
+	width: 75%;
+}
+.col-l-10{
+	width: 83.33333%;
+}
+.col-l-11{
+	width: 91.6667%;
+}
+.col-l-12{
+	width: 100%;
+}
+[class*="col-"]{
+	float: left;
+	box-sizing: border-box;
+	position: relative;
+}
+.box{
+	width: 100%;
+	margin: 0px auto;
+}
+.box li{
+	border: 1px solid white;
+	height: 200px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.box li:nth-child(1){
+	background-image: url('../img/macbook_pro_large.jpg')
+}
+.box li:nth-child(2){
+	background-image: url('../img/accessories_large.jpg')
+}
+.box li:nth-child(3){
+	background-image: url('../img/supplier_responsibility_large.jpg')
+}
+.box li:nth-child(4){
+	background-image: url('../img/wwdc17_large.jpg')
+}
+.bo{
+	width: 0px;
+	height: 0px;
+	clear: both;
+}
+/* jiewei */
+.ac{
+	width: 100%;
+	height: 401px;
+	background:#F2F2F2;
+	margin: 0px auto;
+}
+.ac1{
+	width: 980px;
+	height: 401px;
+	background:#F2F2F2;
+	margin: 0px auto;
+}
+.ac1 .setion{
+	width: 100%;
+	height: 50px;
+
+}
+.setion li{
+    font-size: 10px;
+    display: inline-block;
+    color: black;
+    line-height: 50px;
+}
+.direct{
+	width: 980px;
+	height: 245px;
+	margin: 0px auto;
+	box-sizing: border-box;
+	/* overflow: hidden; */
+}
+.direct .ji{
+    display: inline-block;
+    width: 190px;
+    height: 245px;
+
+}
+.direct li{
+	width: 196px;
+	height: 12px;
+	margin: 10px 0px;
+
+}
+.direct li a{
+	
+	font-size: 10px;
+	color: #555555;
+   
+}
+.direct li i{
+	color: #F2F2F2;
+}
+.direct li a:hover{
+	border-bottom: 1px solid black;
+}
+.zuixia{
+	width: 980px;
+	height: 109px;
+	margin: 0px auto ;
+}
+.zuixia .o li{
+	display: block;
+	margin-top: 15px;
+	color: #888888;
+	font-size: 8px;
+	height: 24px;
+	font-size: 12px;
+}
+.zuixia .e li{
+	display: block;
+	margin-top: 15px;
+	color: #888888;
+	font-size: 8px;
+	height: 24px;
+	font-size: 12px;
+}
+.direct .yin{
+	width: 100%;
+	height: 290px;
+	box-sizing: border-box;
+	padding: 0px 30px 0px 20px;
+   
+}
+.yin{
+	display: none;
+}
+.yin li {
+	width: 100%;
+	height: 20px;
+     margin-bottom: 18px;
+    width: 100%;
+    border-bottom: 1px solid #9A9A9A;
+   }
+.yin li a {
+	
+	line-height:20px ;
+
+}
+.yin li span{
+	float: right;
+}
+li a span{
+font-size: 12px;	
+	color: #0070C9;
+}
+li a {
+	
+	color: #0070C9;
+}
+ li a:hover{
+	border-bottom: 1px solid #0070C9;
+}
+p{
+	font-size: 12px;
+	color: #888888;
+	white-space: pre-wrap;
+
+}
+p a:hover{
+	border-bottom: 1px solid black;
+}
+@media screen and (max-width: 1050px){
+	.lan{
+		width: 100%;
+		box-sizing: border-box;
+		padding: 0px 15px;
+       margin: 0px auto;
+	}
+	.banner{
+		width: 100%;
+		height: 456px;
+		background: url('../img/iphone7_productred_medium.png')no-repeat center;
+	    background-size: contain;
+	    background-color: #CC3341;
+	    font-size: 12px;
+	    margin: 0px auto;
+	}
+	.box{
+		width: 100%;
+		height: 400px;
+		margin: 0px auto;
+	}
+	.box li{
+		width: 50%;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.box li:nth-child(1){
+	background-image: url('../img/macbook_pro_medium.jpg');
+}
+.box li:nth-child(2){
+	background-image: url('../img/accessories_medium.jpg');
+}
+.box li:nth-child(3){
+	background-image: url('../img/supplier_responsibility_medium.jpg');
+}
+.box li:nth-child(4){
+	background-image: url('../img/wwdc17_medium.jpg');
+}
+.col-m-1{
+	width: 8.3333%;
+}
+.col-m-2{
+	width: 16.66667%;
+}
+.col-m-3{
+	width: 25%;
+}
+.col-m-4{
+	width: 33.33333%;
+}
+.col-m-5{
+	width: 41.6667%;
+}
+.col-m-6{
+	width: 50%;
+}
+.col-m-7{
+	width: 58.3333%;
+}
+.col-m-8{
+	width: 66.66667%;
+}
+.col-m-9{
+	width: 75%;
+}
+.col-m-10{
+	width: 83.33333%;
+}
+.col-m-11{
+	width: 91.6667%;
+}
+.col-m-12{
+	width: 100%;
+}
+ .ac{
+ 	width:100%;
+ 	height: 500px; 
+ }
+ .ac1{
+ 	width: 100%;
+ }
+  .setion{
+	width: 100%;
+	height: 100px;
+
+}
+.setion li{
+    color: black;
+    line-height: 10px;
+}
+ .zuixia{
+ 	width: 100%;
+ }
+ hr{
+ 	width: 100%;
+ }
+ .direct {
+ 	width: 100%;
+ 	box-sizing: border-box;
+ 	padding: 0px 15px;
+ }
+ .direct .ji{
+ 	width: 19%;
+ }
+.zuixia{
+	width: 100%;
+	height: 218px;
+	margin: 0px auto ;
+}
+.zuixia .o li{
+	display: block;
+	margin-top: 15px;
+	height: 50px;
+	padding: 0px 30px;	
+}
+.zuixia p{
+	display: block;
+	margin-top: 15px;
+	height: 50px;
+	padding: 0px 30px;
+}
+.zuixia .e li{
+	display: block;
+	margin-top: 15px;
+	padding: 0px 30px;
+}
+
+}
+
+@media screen and (max-width: 768px){
+	.lan{
+		width: 100%;
+        margin: 0px auto;
+	}
+	.lan .con{
+		width: 100%;
+		height: 44px;
+		display: block;
+	}
+	.lan .let {
+		display: none;
+	}
+	
+		.banner{
+			margin: 0px auto;
+		width: 100%;
+		height: 377px;
+		background: url('../img/iphone7_productred_small.png')no-repeat center;
+	    background-size: contain;
+	    background-color: #CC3341;
+	}
+		.box{
+		width:100%;
+		height: 800px;
+		margin: 0px auto;
+}
+		.box li{
+		width: 100%;
+		height: 200px;
+		background-size: cover;
+	    background-repeat: no-repeat;
+	    background-position: center;
+}
+.box li:nth-child(1){
+	background-image: url('../img/macbook_pro_small.jpg');
+}
+.box li:nth-child(2){
+	background-image: url('../img/accessories_small.jpg');
+}
+.box li:nth-child(3){
+	background-image: url('../img/supplier_responsibility_small.jpg');
+}
+.box li:nth-child(4){
+	background-image: url('../img/wwdc17_small.jpg');
+}
+	.col-s-1{
+	width: 8.3333%;
+}
+.col-s-2{
+	width: 16.66667%;
+}
+.col-s-3{
+	width: 25%;
+}
+.col-s-4{
+	width: 33.33333%;
+}
+.col-s-5{
+	width: 41.6667%;
+}
+.col-s-6{
+	width: 50%;
+}
+.col-s-7{
+	width: 58.3333%;
+}
+.col-s-8{
+	width: 66.66667%;
+}
+.col-s-9{
+	width: 75%;
+}
+.col-s-10{
+	width: 83.33333%;
+}
+.col-s-11{
+	width: 91.6667%;
+}
+.col-s-12{
+	width: 100%;
+}
+.direct .ji{
+	display: none;
+}
+.ac{
+	width: 100%;
+	height: 500px;
+}
+.yin {
+	width: 100%;
+	height: 500px;
+	display: block;
+}
+ .setion{
+	width: 100%;
+	height: 150px;
+    
+}
+.setion li{
+    color: black;
+    line-height: 10px;
+}
+.setion li{
+    color: black;
+    line-height: 20px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+}
